@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Rock</title>
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- My Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><i class="icon fas fa-dragon"></i>World Rock</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorías
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Hard Rock</a>
+                <a class="dropdown-item" href="#">Heavy Metal</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Más...</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html" tabindex="-1" aria-disabled="true">Registrarse</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Main content -->
+      <main class="container">
+        <div class="main-banner card bg-dark text-white">
+            <img src="images/thedarksideofthemoon.jpeg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">The Dark Side Of The Moon</h5>
+              <p class="card-text">La temática del álbum incluye el conflicto, la avaricia, el envejecimiento y la enfermedad mental, este último inspirado, en parte, por el deterioro mental de Barrett.</p>
+              <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+            </div>
+          </div>
+
+          <!-- Albums -->
+          <div class="title-section">
+            <h2><i class="icon fas fa-compact-disc"></i>Álbumes</h2>
+          </div>
+          <div class="albums row row-cols-1 row-cols-md-4">
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/movingpictures.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moving Pictures</h5>
+                  <p class="card-text">Siguiendo la fórmula del álbum previo (Permanent Waves), Moving Pictures continúa dentro del exitoso formato radiable y está considerado como uno de los mejores álbumes de Rock de la historia.</p>
+                  <a href="player.html" class="btn my-2 my-sm-0">Ver Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/closetotheedge.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Close To The Edge</h5>
+                  <p class="card-text">Se trata de una composición soberbia, sumamente ordenada en la que cada voz instrumental ha recibido gran cuidado en su factura. Rítmicamente contiene pasajes de métrica variada.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/theraventhatrefusedtosing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Raven That Refused To Sing (And Other Stories)</h5>
+                  <p class="card-text">Escrito entre enero y julio de 2012, incluye 6 temas basados en distintas historias sobrenaturales, 3 de los cuales con más de 10 minutos de duración.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/inthecourtofthecrimsonking.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">In The Court Of The Crimson King</h5>
+                  <p class="card-text">Es el álbum debut del grupo inglés King Crimson, producido y publicado en 1969, considerado uno de los primeros álbumes de rock progresivo.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banner One -->
+          <div class="banner card bg-dark text-white">
+            <img src="images/progressiverock.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <div class="container-banner">
+                    <h5 class="card-title">Un mundo maravilloso...</h5>
+                    <p class="card-text">Aprende más acerca del Rock Progresivo...</p>
+                    <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+            </div>
+          </div>
+
+          <!-- Artists -->
+          <div class="title-section">
+            <h2><i <i class="icon fas fa-users"></i>Artistas</h2>
+          </div>
+          <div class="albums row row-cols-1 row-cols-md-4">
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/pinkfloydartists.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pink Floyd ❤</h5>
+                  <p class="card-text">Considerada un icono cultural del siglo xx y una de las bandas más influyentes y aclamadas en la historia de la música, que obtuvo gran popularidad gracias a su música psicodélica que evolucionó hacia el rock progresivo y rock sinfónico con el paso del tiempo.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/dreamtheaterartists.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dream Theater</h5>
+                  <p class="card-text">La banda es conocida por el virtuosismo técnico de sus instrumentistas, quienes han ganado numerosos premios a lo largo de su carrera.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/toolartists.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tool</h5>
+                  <p class="card-text">La banda nació tocando un metal progresivo más áspero que el que practican actualmente, lo que se refleja en su segundo ep, Opiate, en una época en la que dominaba el thrash metal y el rock alternativo.</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100">
+                <img src="images/opethartists.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Opeth</h5>
+                  <p class="card-text">Posee en sus composiciones influencias del rock progresivo, jazz, blues y de guitarras acústicas de corte clásico y folk,​ más notorias en su álbum Blackwater Park (2001),​ y Ghost Reveries (2005).</p>
+                  <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banner Two -->
+          <div class="banner card bg-dark text-white">
+            <img src="images/fearinoculum.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <div class="container-banner">
+                    <h5 class="card-title">Escucha el nuevo álbum de Tool</h5>
+                    <p class="card-text">Da clic en "Ver Más"</p>
+                    <button class="btn my-2 my-sm-0" type="submit">Ver Más</button>
+                </div>
+            </div>
+          </div>
+
+          <!-- Social Networks -->
+          <section class="social">
+            <h2><i class="icon fas fa-user-friends"></i>Redes Sociales</h2>
+            <div class="links">
+              <a href="https://facebook.com">
+                <i class="facebook-color fab fa-facebook-square"></i>
+              </a>
+              <a href="https://twitter.com">
+                <i class="twitter-color fab fa-twitter-square"></i>
+              </a>
+              <a href="https://instagram.com">
+                <i class="instagram-color fab fa-instagram-square"></i>
+              </a>
+            </div>
+          </section>
+        </div>
+
+        </main>
+
+        <footer>
+            <p>Gerardo Morales Ramos - 2020</p>
+        </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

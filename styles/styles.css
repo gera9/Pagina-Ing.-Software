@@ -1,0 +1,205 @@
+body {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.7'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.icon {
+    color: red;
+    margin-right: 10px;
+}
+
+.btn {
+    background: red;
+    color: #ffffff;
+}
+
+.btn:hover {
+    border: 1px solid red;
+    color: red;
+    background: transparent;
+}
+
+/*--- NavBar ---*/
+
+.navbar {
+    background: #000000;
+}
+
+/*--- Main Content ---*/
+
+.container {
+    margin-top: 50px;
+    width: 90%;
+}
+
+
+.container .main-banner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .container .main-banner {
+      padding-bottom: 10px;
+      height: 300px;
+    }
+
+    .container .main-banner img {
+        height: 300px;
+        object-fit: cover;
+      }
+}
+
+.container .title-section {
+    display: block;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    padding: 20px 0 20px 0px;
+    border-radius: calc(.25rem - 1px);
+}
+
+.container .title-section h2 {
+    margin-bottom: 0;
+}
+
+.container .card {
+    background: #000000;
+    color: #ffffff;
+}
+
+.container .card img {
+    object-fit: cover;  
+}
+
+/*--- Banner ---*/
+.banner {
+    margin: 35px 0 50px 0;
+    min-height: 300px;
+}
+
+.banner img {
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.banner .container-banner {
+    background: #000000;
+    padding: 20px;
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .banner .container-banner {
+      width: 100%;
+    }
+  }
+
+/*--- Social Networks ---*/
+.social {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    border-radius: calc(.25rem - 1px);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 50px;
+}
+
+.social .links a {
+    text-decoration: none;
+}
+
+.social .links a .facebook-color {
+    color: #1877F2;
+}
+
+.social .links a .facebook-color:hover {
+    opacity: 0.7;
+}
+
+.social .links a .twitter-color {
+    color: #1DA1F2;
+}
+
+.social .links a .twitter-color:hover {
+    opacity: 0.7;
+}
+
+.social .links a .instagram-color {
+    color: #E7858D;
+}
+
+.social .links a .instagram-color:hover {
+    opacity: 0.7;
+}
+
+/*--- Footer ---*/
+footer {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    height: 56px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*--- Player ---*/
+.jumbotron {
+    background: #000000;
+    color: #ffffff;
+    height: 100%;
+}
+
+.player-title {
+    margin-bottom: 20px;
+}
+
+.jumbotron iframe {
+    max-width: 100%;
+}
+
+/*--- Lyrics ---*/
+.title-lyrics{
+    text-align: center;
+    background: #000000;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.lyrics {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: calc(.25rem - 1px);
+}
+
+.lyrics pre {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--- Form container ---*/
+.form-container {
+    background: #000000;
+    padding: 30px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
